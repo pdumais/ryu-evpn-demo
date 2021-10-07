@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo venv/bin/python speaker.py

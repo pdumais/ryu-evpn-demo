@@ -1,0 +1,4 @@
+#!/bin/sh
+export DPID=$(sudo ovs-vsctl get bridge br0 datapath_id)
+. venv/bin/activate
+ryu-manager receiver.py
